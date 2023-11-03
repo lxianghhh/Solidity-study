@@ -1,0 +1,111 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num0",
+						"type": "uint256"
+					}
+				],
+				"name": "add1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "add2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "n2",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minusCall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "minusPayable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Study/Function.sol": "test"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Study/Function.sol": {
+			"keccak256": "0x3347de3dce9f9989ec8d68aa7254a809513f6a3b3db6127fe1c9f1e33ddfcbc4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6fa4e8cdf203956b2e043167fbe4543084f4440b867413f9b763393845ba2138",
+				"dweb:/ipfs/QmbzHxXEf7fcWjG7dEd1StSW6uHbiQ34aNREQ8YPtQ8Kep"
+			]
+		}
+	},
+	"version": 1
+}
